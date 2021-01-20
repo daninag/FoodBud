@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+/* Headings */
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #F9C802;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* NavBar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+#title .container-fluid{
+  padding:3% 15% 7%;
+}
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Download Buttons */
+.donload-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* Icons in Featrues Secton */
+
+#features {
+  position: relative;
+}
+.feature-box{
+  padding: 5%;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.icon{
+  color: #EA9207;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #F9C802;
+}
+/* Testemonial Section */
+#testimonials {
+  background-color: #EA9207;
+  /* position: relative; */
+}
+.carousel-item{
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#press{
+  background-color: #F9C802;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action */
+
+#footer{
+  line-height: 2.5rem;
+
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+just so I have space */
